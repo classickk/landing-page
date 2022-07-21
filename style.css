@@ -95,7 +95,7 @@ button {
 
 
 .info-container {
-    background-color: #E5E7EB;
+    background-color: #f9faf8;
     padding: 50px 200px;
 }
 
@@ -132,3 +132,73 @@ img {
 
 /* QUOTE SECTION */
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    flex-shrink: 0;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    align-self: center;
+}
+
+.quote-author {
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* CALL TO ACTION SECTION */
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    background-color: #f9faf8;
+    padding: 100px 200px
+
+}
+
+.cta-container {
+    display: flex;
+    background-color: #3882f6;
+    width: 1000px;
+    padding:100px 150px;
+    color: #E5E7EB;
+    border-radius: 5px;
+    flex-shrink: 0;
+    width: 700px;
+    height: 50px;
+}
+
+.cta-header {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cta-text {
+    font-size: 18px;
+}
+
+.cta-button {
+    border: solid #f9faf8;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.cta-left {
+    padding-right: 50px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+    font-size: 14px;
+    justify-content: center;
+    padding: 20px;
+    color: #E5E7EB;
+}
